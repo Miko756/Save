@@ -4,6 +4,8 @@ from devgagan.core import script
 from devgagan.core.func import subscribe
 from config import OWNER_ID
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
+import pyrogram.utils
+pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
 
 # ------------------- Start-Buttons ------------------- #
 
